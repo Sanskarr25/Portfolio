@@ -1,0 +1,30 @@
+* {
+  text-decoration: none;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.navbar {
+  background: none;
+  font-family: calibri;
+  border-radius: 20px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: rgb(4, 0, 63);
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.darkMode {
+  margin-right: 100px;
+}
