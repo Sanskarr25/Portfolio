@@ -120,7 +120,14 @@ ul li a:hover {
   font-weight: 400;
   line-height: 3rem;
   color: var(--text-dark);
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+}
+
+.designation {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--text-light);
+  font-weight: 600;
 }
 
 .title span {
@@ -205,8 +212,9 @@ ul li a:hover {
 .gridbox {
   display: grid;
   margin: auto;
+  width: 70%;
   height: 30%;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .box {
@@ -324,6 +332,7 @@ ul li a:hover {
   height: 35px;
   margin-right: 30px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .source-code-button {
@@ -333,6 +342,7 @@ ul li a:hover {
   height: 35px;
   margin-right: 30px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .details-button {
@@ -342,6 +352,7 @@ ul li a:hover {
   height: 35px;
   margin-right: 30px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .project-image {
