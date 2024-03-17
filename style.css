@@ -187,9 +187,7 @@ ul li a:hover {
 }
 
 .image img {
-  border: 0.3rem solid #000000;
-  width: min(20rem, 90%);
-  border-radius: 15%;
+  width: min(30rem, 100%);
 }
 
 .skill-section {
@@ -404,6 +402,10 @@ footer {
 .email-me {
   height: 30px;
   width: 90px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .socials {
@@ -459,9 +461,7 @@ footer {
   }
 
   .image img {
-    border: 5px solid #000000;
-    width: min(15rem, 90%);
-    border-radius: 15%;
+    width: min(30rem, 100%);
   }
 
   .action__btns {
