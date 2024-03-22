@@ -36,6 +36,11 @@ nav {
   left: 0;
   background-color: #ffffff;
   z-index: 99;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav.scrolled {
+  background-color: #0d43a0;
 }
 
 .nav__content {
@@ -45,16 +50,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-nav .logo a {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--primary-color);
-  transition: 0.3s;
-}
-nav .logo a:hover {
-  color: var(--primary-color-dark);
 }
 
 nav .checkbox {
@@ -84,12 +79,20 @@ ul li a {
   text-decoration: none;
   font-weight: 600;
   color: var(--text-dark);
-  transition: 0.3s;
+  transition: color 0.3s ease-in-out;
 }
 
 ul li a:hover {
   border-bottom-color: var(--secondary-color);
   color: var(--secondary-color);
+}
+
+nav.scrolled ul li a {
+  color: white;
+}
+
+nav.scrolled ul li a:hover {
+  border-bottom-color: white;
 }
 
 .section {
