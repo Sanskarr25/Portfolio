@@ -9,6 +9,7 @@
   --extra-light: #ffffff;
   --max-width: 1200px;
   --skill-section-color: #f1f1fa;
+  --footer-color: #4883e9;
 }
 
 * {
@@ -40,7 +41,7 @@ nav {
 }
 
 nav.scrolled {
-  background-color: #0d43a0;
+  background-color: #4883e9;
 }
 
 .nav__content {
@@ -82,12 +83,20 @@ ul li a {
   transition: color 0.3s ease-in-out;
 }
 
+ul li a i {
+  color: black;
+}
+
 ul li a:hover {
   border-bottom-color: var(--secondary-color);
   color: var(--secondary-color);
 }
 
 nav.scrolled ul li a {
+  color: white;
+}
+
+nav.scrolled ul li a i {
   color: white;
 }
 
@@ -386,7 +395,7 @@ nav.scrolled ul li a:hover {
 
 footer {
   height: 150px;
-  background-color: var(--skill-section-color);
+  background-color: var(--footer-color);
 }
 
 .footer-content {
@@ -407,7 +416,7 @@ footer {
 .email-me {
   height: 30px;
   width: 90px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
   background-color: #ffffff;
   border-radius: 20px;
   cursor: pointer;
@@ -421,15 +430,15 @@ footer {
 
 .social-icon-footer {
   font-size: 1rem;
-  color: #000000;
+  color: #ffffff;
   margin-right: 5px;
   padding: 8px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 20%;
 }
 
 .footer-bottom {
-  color: #606060;
+  color: #ffffff;
   height: 30px;
 }
 
