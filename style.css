@@ -206,7 +206,7 @@ nav.scrolled ul li a:hover {
 }
 
 .image img {
-  width: min(30rem, 100%);
+  width: min(40rem, 100%);
 }
 
 .skill-section {
@@ -258,7 +258,7 @@ nav.scrolled ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #4883e9;
+  background: #ffffff;
   /* linear-gradient(
       140.53deg,
       rgba(255, 255, 255, 0.5) 12.34%,
