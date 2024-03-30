@@ -10,6 +10,7 @@
   --max-width: 1200px;
   --skill-section-color: #f1f1fa;
   --footer-color: #f1f1fa;
+  --skill-box-color: #ffffff;
 }
 
 * {
@@ -258,18 +259,13 @@ nav.scrolled ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ffffff;
-  /* linear-gradient(
-      140.53deg,
-      rgba(255, 255, 255, 0.5) 12.34%,
-      rgba(255, 255, 255, 0) 51.46%
-    ); */
+  background: var(--skill-box-color);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -2px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-  position: absolute; /* Change this line to position absolute */
-  top: 50%; /* Add this line to move to the vertical center */
-  left: 50%; /* Add this line to move to the horizontal center */
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -551,7 +547,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #4883e9;
+    background: var(--skill-box-color);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -2px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
