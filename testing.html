@@ -1,13 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <link rel="icon" href="images/title_user.png" />
+    <link rel="stylesheet" href="testing.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
   </head>
   <body>
-    <embed src="resume.pdf" type="application/pdf"
-      frameBorder="0"
-      scrolling="auto" width="800px" height="1000px" />
+    <nav>
+      <div class="nav__content">
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#intro">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li>
+            <a
+              href="#"
+              target="_blank">Resume</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-moon"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Section 1 - Introduction -->
+    <section id="intro">
+      <div class="section__container1">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Sanskar<br /></span>
+          </h1>
+          <span class="designation">Software Engineer</span>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Sanskar, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="social-container">
+            <div class="social-handles">
+              <a href="https://github.com/Sanskarr25" target="_blank">
+                <i class="fa-brands fa-github social-icon"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sanskarshete/"
+                target="_blank">
+                <i class="fa-brands fa-linkedin-in social-icon"></i>
+              </a>
+              <a href="https://twitter.com/Sanskar445" target="_blank">
+                <i class="fa-brands fa-x-twitter social-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/self.png" alt="profile" />
+        </div>
+      </div>
+    </section>
+    <!-- Section 2 - Skill Section -->
+    <section id="skills" class="skill-section">
+      <div class="section-container2">
+        <div class="skill-header">
+          <p class="skill-header-text">Skills Acquired</p>
+          <div class="line"></div>
+        </div>
+
+        <!-- Languages -->
+        <div class="skill-category">
+          <h3 class="category-title">Languages</h3>
+          <div class="skill-grid">
+            <div class="skill-pill">
+              <img src="skills/python-icon.png" alt="Python" />
+              <span>Python</span>
+            </div>
+            <div class="skill-pill">
+              <img src="skills/cpp-icon.png" alt="C++" />
+              <span>C++</span>
+            </div>
+            <div class="skill-pill">
+              <img src="skills/js-icon.png" alt="JavaScript" />
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-pill">
+              <img src="skills/html-icon.png" alt="HTML" />
+              <span>HTML</span>
+            </div>
+            <div class="skill-pill">
+              <img src="skills/css-icon.png" alt="CSS" />
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-category">
+          <h3 class="category-title">Frameworks</h3>
+          <div class="skill-grid">
+            <div class="skill-pill">
+              <img src="skills/flask-icon.png" alt="Flask" />
+              <span>Flask</span>
+            </div>
+            <div class="skill-pill">
+              <img src="skills/fastapi-icon.png" alt="FastAPI" />
+              <span>FastAPI</span>
+            </div>
+            <div class="skill-pill">
+              <img src="skills/bootstrap-icon.png" alt="Bootstrap" />
+              <span>Bootstrap</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-category">
+          <h3 class="category-title">DataBase</h3>
+          <div class="skill-grid">
+            <div class="skill-pill">
+              <img src="skills/database-icon.png" alt="SQL" />
+              <span>SQL</span>
+            </div>
+            <div class="skill-pill">
+              <img src="skills/mongodb-icon.png" alt="MongoDB" />
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category">
+          <h3 class="category-title">Tools</h3>
+          <div class="skill-grid">
+            <div class="skill-pill">
+              <img src="skills/git-icon.png" alt="Git" />
+              <span>Git</span>
+            </div>
+            <div class="skill-pill">
+              <img src="skills/postman-icon.png" alt="Postman" />
+              <span>Postman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 - Project Section -->
+    <section id="projects" class="project-section">
+      <div class="section-container3">
+        <div class="project-header">
+          <p class="project-header-text">My Projects</p>
+          <div class="pline"></div>
+        </div>
+        <div class="project-grid-container">
+          <div class="project-box">
+            <div class="content-box">
+              <div class="content-container">
+                <h1>CropAdvisor</h1>
+                <div class="project-description">
+                  <p>Designed and built a Flask-based backend System.</p>
+                  <p>
+                    Utilized API Requests such as GET, POST, CREATE methods for
+                    data-interaction.
+                  </p>
+                  <p>
+                    Implemented user authentication, secure registration, and
+                    session management.
+                  </p>
+                  <p>Integrated MongoDB to store user data.</p>
+                  <p>
+                    Created Dynamic HTML templates for better user experience.
+                  </p>
+                </div>
+                <div class="technologies-used"></div>
+                <div class="project-buttons">
+                  <button class="demo-button">Demo</button>
+                  <button class="source-code-button">Source Code</button>
+                  <button class="details-button">Details</button>
+                </div>
+              </div>
+              <img
+                src="images/crop.png"
+                alt="project-Image1"
+                class="project-image" />
+            </div>
+          </div>
+
+          <div class="project-box">
+            <div class="content-box">
+              <div class="content-container">
+                <h1>AirWise</h1>
+                <div class="project-description">
+                  <p>Extracted, cleaned, and displayed web data using Request
+                    Library.</p>
+                  <p>
+                    Visualized trends with interactive charts for better
+                    engagement.
+                  </p>
+                  <p>
+                    Built a backend to train and evaluate machine learning
+                    models.
+
+                  </p>
+                  <p>Integrated XGBoost model for real-time predictions in the
+                    app.
+                  </p>
+                  <p>
+                    Created Dynamic HTML templates for better user experience.
+                  </p>
+                </div>
+                <div class="technologies-used"></div>
+                <div class="project-buttons">
+                  <button class="demo-button">Demo</button>
+                  <button class="source-code-button">Source Code</button>
+                  <button class="details-button">Details</button>
+                </div>
+              </div>
+              <img
+                src="images/Air.png"
+                alt="project-Image1"
+                class="project-image" />
+            </div>
+          </div>
+
+          <div class="project-box">
+            <div class="content-box">
+              <div class="content-container">
+                <h1>Amazon Clone</h1>
+                <div class="project-description">
+                  <p>Designed and built a Flask-based backend System.</p>
+                  <p>
+                    Utilized API Requests such as GET, POST, CREATE methods for
+                    data-interaction.
+                  </p>
+                  <p>
+                    Implemented user authentication, secure registration, and
+                    session management.
+                  </p>
+                  <p>Integrated MongoDB to store user data.</p>
+                  <p>
+                    Created Dynamic HTML templates for better user experience.
+                  </p>
+                </div>
+                <div class="technologies-used"></div>
+                <div class="project-buttons">
+                  <button class="demo-button">Demo</button>
+                  <button class="source-code-button">Source Code</button>
+                  <button class="details-button">Details</button>
+                </div>
+              </div>
+              <img
+                src="images/amazon.png"
+                alt="project-Image1"
+                class="project-image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-Section -->
+    <footer>
+      <div class="footer-content">
+        <div class="button">
+          <button class="email-me">Email Me</button>
+        </div>
+        <div class="socials">
+          <ul>
+            <li><i class="fa-brands fa-github social-icon-footer"></i></li>
+            <li><i class="fa-brands fa-linkedin-in social-icon-footer"></i></li>
+            <li><i class="fa-brands fa-x-twitter social-icon-footer"></i></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright &copy;2024 <span>Made with ❤️</span>In India</p>
+        </div>
+      </div>
+    </footer>
   </body>
+  <script src="script.js"></script>
 </html>
